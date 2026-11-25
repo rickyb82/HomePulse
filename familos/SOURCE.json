@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "00601751a1e0d40e3d387cc6dda17f34b285d91d",
+  "revision": "b247d2b139a53198841054cc655054268ae3efe0",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -121,7 +121,7 @@
     {
       "path": "familos/backend/app/api/wellness.py",
       "source_path": "backend/app/api/wellness.py",
-      "sha256": "c820b0606b567851d01c7e4635a725b1afdb79ab4cdc3f1e0a9b5d1a9dc800be"
+      "sha256": "15cc02fc4941e82c33e8a71489e22543ab5c06ec828a73cbed13866528d77b25"
     },
     {
       "path": "familos/backend/app/api/wellness_module.py",
@@ -221,7 +221,7 @@
     {
       "path": "familos/backend/app/services/homepulse/store.py",
       "source_path": "backend/app/services/homepulse/store.py",
-      "sha256": "ebf80bc2b678f84b1a4595ce58d28f6019bdb0b4a79650e7bbb0b7966818d5b6"
+      "sha256": "6b174c6973453bf6167fc11800112300de26529defa7270ee6996c683a9bb4ba"
     },
     {
       "path": "familos/backend/app/services/homepulse/temperature.py",
@@ -257,6 +257,11 @@
       "path": "familos/backend/tests/test_wellness_daily.py",
       "source_path": "backend/tests/test_wellness_daily.py",
       "sha256": "101495783b65fdd04386a49176fbdb1af110fd349cd48bdb6beb0e3b1a720f28"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_diary.py",
+      "source_path": "backend/tests/test_wellness_diary.py",
+      "sha256": "e52ed24b79e97dcdd1bdb163990672db44b7bde45d03428f962a93345305ab3a"
     },
     {
       "path": "familos/backend/tests/test_wellness_module_tools.py",
@@ -441,7 +446,7 @@
     {
       "path": "ios/HomePulse/HomePulse/AppModel.swift",
       "source_path": "ios/HomePulse/HomePulse/AppModel.swift",
-      "sha256": "c02aa57960390dabfc40672d2881f2640a7c2d21881213ae5b7b64fe7e97806f"
+      "sha256": "5c13440530f521cc7f9c65eb590ca15ac88e9f04b5b7ef9868693dcc1fc11c6c"
     },
     {
       "path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
@@ -466,7 +471,7 @@
     {
       "path": "ios/HomePulse/HomePulse/EventStore.swift",
       "source_path": "ios/HomePulse/HomePulse/EventStore.swift",
-      "sha256": "5f247cc8cb04ba8f2a94d874c466f4da2b2916f54ee7548a457ecbd37173a839"
+      "sha256": "6bec5e23abd969ae0fd26109d2f30b7b61a3b193279eb743698db3ff7016286a"
     },
     {
       "path": "ios/HomePulse/HomePulse/GymDetection.swift",
@@ -486,12 +491,12 @@
     {
       "path": "ios/HomePulse/HomePulse/Info.plist",
       "source_path": "ios/HomePulse/HomePulse/Info.plist",
-      "sha256": "e96ef895ebb78d21c97a175dd03988fe464a46526f957dd429db0e5dd470b6ce"
+      "sha256": "4ad2eb34173b968f646de1f48ef16dacf67e28965a7ed9694388dfa697facb3f"
     },
     {
       "path": "ios/HomePulse/HomePulse/Models.swift",
       "source_path": "ios/HomePulse/HomePulse/Models.swift",
-      "sha256": "1bcb6c759dd57e7036691c69a58b5c64b07668bb359c5974f8cce844d1e7b423"
+      "sha256": "a38e104b174bc051461bbac41d2a34f4dfdd6aa120e9a0fc589c19819b465907"
     },
     {
       "path": "ios/HomePulse/HomePulse/OuraProtocol.swift",
@@ -531,7 +536,7 @@
     {
       "path": "ios/HomePulse/HomePulse/Views.swift",
       "source_path": "ios/HomePulse/HomePulse/Views.swift",
-      "sha256": "f24a775650ca1bd3da9623aae430781895b9ea7ea1de245d4ae304e1279ac9e1"
+      "sha256": "7e1613b00dbe210fd4774c815ad06cbbc9f51202fe4839685e73febe523c6822"
     },
     {
       "path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
@@ -546,12 +551,12 @@
     {
       "path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
       "source_path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
-      "sha256": "d56d0bce577262578a7794a09425b3ed0fe768b32c1dd711b1b6ccf954fb747a"
+      "sha256": "85e1477d1f970b469175c93f91b46e5d139792975e498f3c5d7455ab1b419e3b"
     },
     {
       "path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
       "source_path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
-      "sha256": "63fa52808f166684223806cc9c261bba0ed4cf56bb51b85022cee0c4f98f3d16"
+      "sha256": "2fbb2b3a1f75dddc853aa403dc14f6d358fdbcb997839282db3ef7fa1e717442"
     },
     {
       "path": "ios/HomePulse/QA.md",
@@ -561,7 +566,7 @@
     {
       "path": "ios/HomePulse/README.md",
       "source_path": "ios/HomePulse/README.md",
-      "sha256": "cfd5827d319abc8de334f673613a433e123914b9b324f440899996a4fb594a72"
+      "sha256": "00ebcf0cbfa6428757d036907c7a3b5a5bf5e0a3425b7ef451be6c26d5aa53b3"
     },
     {
       "path": "ios/HomePulse/copy_private_model.py",
