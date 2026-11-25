@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "b247d2b139a53198841054cc655054268ae3efe0",
+  "revision": "5484a74dacd221873ea9eb5d4b7d58ffa774a879",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -446,7 +446,7 @@
     {
       "path": "ios/HomePulse/HomePulse/AppModel.swift",
       "source_path": "ios/HomePulse/HomePulse/AppModel.swift",
-      "sha256": "5c13440530f521cc7f9c65eb590ca15ac88e9f04b5b7ef9868693dcc1fc11c6c"
+      "sha256": "68e78d636b77266471cf8ff1cb59ebedd73e1e147fd89fc554293f0408694da8"
     },
     {
       "path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
@@ -471,7 +471,7 @@
     {
       "path": "ios/HomePulse/HomePulse/EventStore.swift",
       "source_path": "ios/HomePulse/HomePulse/EventStore.swift",
-      "sha256": "6bec5e23abd969ae0fd26109d2f30b7b61a3b193279eb743698db3ff7016286a"
+      "sha256": "25702dcabab9a47db3a549ccca59cb7c01664d6b8bf28c372ad0d93f06345ca4"
     },
     {
       "path": "ios/HomePulse/HomePulse/GymDetection.swift",
@@ -491,7 +491,7 @@
     {
       "path": "ios/HomePulse/HomePulse/Info.plist",
       "source_path": "ios/HomePulse/HomePulse/Info.plist",
-      "sha256": "4ad2eb34173b968f646de1f48ef16dacf67e28965a7ed9694388dfa697facb3f"
+      "sha256": "95d5835d7002bc48b5b5151a0a2b3057d48aac4a3a7b8a563af068bc63843dd6"
     },
     {
       "path": "ios/HomePulse/HomePulse/Models.swift",
@@ -511,7 +511,7 @@
     {
       "path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
       "source_path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
-      "sha256": "dd9196512f40c6fbc2c78dd0a11738f6f890a2bfc861c609b754c6ad2bb0936a"
+      "sha256": "38554fa652dab93cd9cf47e7e953512480d8443fbdb888cdf1e09dbe1202d9e2"
     },
     {
       "path": "ios/HomePulse/HomePulse/RecordedModel.h",
@@ -536,12 +536,12 @@
     {
       "path": "ios/HomePulse/HomePulse/Views.swift",
       "source_path": "ios/HomePulse/HomePulse/Views.swift",
-      "sha256": "7e1613b00dbe210fd4774c815ad06cbbc9f51202fe4839685e73febe523c6822"
+      "sha256": "14cefd725631f022e99401437e3093f29e53adabe0eceff6b7fd93235f6fe49b"
     },
     {
       "path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
       "source_path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
-      "sha256": "0d2ae51414cc5be74d20f43c39463155a2f1987dcad91fa26b77a8a35ee26880"
+      "sha256": "c3726c414b64a632ae7bf6dadd561573697b07ebaa4d1db7e05ac0818a2ac288"
     },
     {
       "path": "ios/HomePulse/HomePulse/WorkoutEngine.swift",
@@ -551,7 +551,7 @@
     {
       "path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
       "source_path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
-      "sha256": "85e1477d1f970b469175c93f91b46e5d139792975e498f3c5d7455ab1b419e3b"
+      "sha256": "98f625dfbad3359ce26e8f7b03394937b4fbebe08f2ec0046591534612a4cb0d"
     },
     {
       "path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
@@ -566,7 +566,7 @@
     {
       "path": "ios/HomePulse/README.md",
       "source_path": "ios/HomePulse/README.md",
-      "sha256": "00ebcf0cbfa6428757d036907c7a3b5a5bf5e0a3425b7ef451be6c26d5aa53b3"
+      "sha256": "4230bc148ba2860639f5421518ffcc862c96ddc573215533d08581882abbb1c9"
     },
     {
       "path": "ios/HomePulse/copy_private_model.py",

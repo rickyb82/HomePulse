@@ -2,7 +2,7 @@
 
 App e integrazione FamilOS pubblicate da **RickyB82**.
 
-HomePulse collega direttamente un Oura Gen3 via Bluetooth, conserva i record sul dispositivo e sincronizza con il proprio server FamilOS. Il cardio registrato viene elaborato sull’iPhone anche senza rete, senza account, API o app ufficiale Oura.
+HomePulse collega direttamente un Oura Gen3 via Bluetooth, accoda i record sul dispositivo fino alla conferma del proprio server FamilOS. Il cardio registrato viene elaborato sull’iPhone anche senza rete, senza account, API o app ufficiale Oura.
 
 ## Componenti
 
@@ -22,7 +22,7 @@ Il modulo richiede [FamilOS](https://github.com/rickyb82/FamilOS/tree/codex/alle
 
 ## Cardio registrato
 
-In Allenamento selezionare l’attività e premere **Avvia cardio registrato offline**. L’app acquisisce nuove tracce e aggiorna il calcolo locale. **Termina** chiude la sessione. Se in Impostazioni è abilitato il cardio anche fuori allenamento, il monitoraggio continua separatamente senza creare sessioni nel diario; altrimenti viene richiesto lo stop nell’anello. I risultati rimangono nel diario del telefono; la sincronizzazione riprende quando il server personale torna raggiungibile.
+In Allenamento selezionare l’attività e premere **Avvia cardio registrato offline**. L’app acquisisce nuove tracce e aggiorna il calcolo locale. **Termina** chiude la sessione. Se in Impostazioni è abilitato il cardio anche fuori allenamento, il monitoraggio continua separatamente senza creare sessioni nel diario; altrimenti viene richiesto lo stop nell’anello. I risultati vengono conservati nel server personale. Sul telefono rimangono soltanto la coda non sincronizzata e il buffer cardio corrente: dopo la conferma i payload vengono liberati, senza cache persistenti dei grafici. La sincronizzazione riprende quando il server personale torna raggiungibile.
 
 Emily può leggere i punti intermedi per metrica e intervallo con `allenamento_campioni`, seguendo il cursore tra pagine complete senza ridurre la serie. Il post allenamento richiede una scelta esplicita.
 
