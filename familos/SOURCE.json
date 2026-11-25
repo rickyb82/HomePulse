@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "8bc9caefd297a91e650fe33a42a0e34d641d8370",
+  "revision": "fdd62d996cc210313d9ee60fb21cdb715fcd37fd",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -334,6 +334,11 @@
       "sha256": "4db02f2d05c08f360cbb6f228b7d82cab7cbbc697d213214a50d8251297f2879"
     },
     {
+      "path": "familos/extras/homepulse-core/test_probe.py",
+      "source_path": "extras/homepulse-core/test_probe.py",
+      "sha256": "5d74163d62c5cec1bf2ac9c5d7fdafbafb1a36df97f41a9682ec67b0748b3a25"
+    },
+    {
       "path": "familos/extras/homepulse-core/test_service.py",
       "source_path": "extras/homepulse-core/test_service.py",
       "sha256": "82ef381594a7bd10e4384b7e614a0dabcd23cb2402bc5a41e2afacd0adb18e90"
@@ -346,7 +351,7 @@
     {
       "path": "familos/extras/updater/orbita_support/wellness.py",
       "source_path": "extras/updater/orbita_support/wellness.py",
-      "sha256": "4e2ffcaf81e86705d7e61421244db31cbd2bbbc270da44878f217276d8932128"
+      "sha256": "95f8825315abb3fbffcb91d2d73cb39e57d0c72b255e669a498105aced8c2078"
     },
     {
       "path": "familos/frontend/src/lib/wellness.ts",
