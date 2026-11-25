@@ -22,9 +22,11 @@ Il modulo richiede [FamilOS](https://github.com/rickyb82/FamilOS/tree/codex/alle
 
 ## Cardio registrato
 
-In Allenamento selezionare l’attività e premere **Avvia cardio registrato offline**. L’app acquisisce nuove tracce e aggiorna il calcolo locale. **Termina** chiude la sessione e richiede lo stop nell’anello. I risultati rimangono nel diario del telefono; la sincronizzazione riprende quando il server personale torna raggiungibile.
+In Allenamento selezionare l’attività e premere **Avvia cardio registrato offline**. L’app acquisisce nuove tracce e aggiorna il calcolo locale. **Termina** chiude la sessione. Se in Impostazioni è abilitato il cardio anche fuori allenamento, il monitoraggio continua separatamente senza creare sessioni nel diario; altrimenti viene richiesto lo stop nell’anello. I risultati rimangono nel diario del telefono; la sincronizzazione riprende quando il server personale torna raggiungibile.
 
-Ogni risultato conserva versione del modello, qualità e stato provvisorio/finale. FamilOS aggiorna atomicamente la stessa registrazione: un invio fuori ordine non sovrascrive revisioni più recenti. Grafici, statistiche, CSV ed Emily riconoscono la provenienza delle stime. I punti mancanti non vengono inventati e l’ora del download non sostituisce quella dei record.
+Emily può leggere i punti intermedi per metrica e intervallo con `allenamento_campioni`, seguendo il cursore tra pagine complete senza ridurre la serie. Il post allenamento richiede una scelta esplicita.
+
+Ogni risultato conserva versione del modello, qualità e stato provvisorio/finale. FamilOS aggiorna atomicamente la stessa registrazione: un invio fuori ordine non sovrascrive revisioni più recenti. Grafici, statistiche, CSV ed Emily riconoscono la provenienza delle stime. I punti mancanti non vengono inventati e l’ora del download non sostituisce quella dei record. `allenamento_grafico` crea il grafico offline nella chat personale con tutte le metriche disponibili e tabella paginata; `allenamento_energia` espone la stima giornaliera con base, attività, totale parziale e copertura. La stima usa MET acquisiti e fasi esplicite senza doppio conteggio; i periodi mancanti non diventano attività inventata. Il cardio esteso è attivo come impostazione iniziale e una disattivazione esplicita viene rispettata.
 
 WHR U2.5.1 è sperimentale sul firmware Gen3 attuale. L’esecuzione è verificata anche su iPhone fisico; qualità e comportamento durante allenamenti reali richiedono verifica separata. L’uscita interpolata a un secondo non equivale a nuove misure indipendenti a quella frequenza. SpO₂, temperatura, respiro e sonno seguono i propri record e percorsi di elaborazione.
 
