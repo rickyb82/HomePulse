@@ -1,0 +1,13 @@
+{
+  "scope": "synthetic unit tests; no personal archive or model weights",
+  "result": "Passed",
+  "totalTestCount": 58,
+  "passedTests": 58,
+  "failedTests": 0,
+  "physical_model_synthetic_probe": {
+    "passed": true,
+    "model": "WHR-U2.5.1",
+    "output_count": 177,
+    "personal_data_used": false
+  }
+}

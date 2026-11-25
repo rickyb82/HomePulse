@@ -1,0 +1,532 @@
+{
+  "upstream": "https://github.com/rickyb82/FamilOS",
+  "branch": "codex/allenamento",
+  "revision": "1c2aab6bd884c4337f142e9dc581e27e52f53da4",
+  "files": [
+    {
+      "path": "android/HomePulse/.gitignore",
+      "source_path": "android/HomePulse/.gitignore",
+      "sha256": "92e4f8f556d2e0b9e40d4527d1f072de6108a80b8a04dcddbd764d26559d0d0c"
+    },
+    {
+      "path": "android/HomePulse/PROTOCOL-BLE.md",
+      "source_path": "android/HomePulse/PROTOCOL-BLE.md",
+      "sha256": "44fba1407f664ab56c16719e8e78a5d0765c2a090b58812083c986b54a227c64"
+    },
+    {
+      "path": "android/HomePulse/README.md",
+      "source_path": "android/HomePulse/README.md",
+      "sha256": "e231f126e1cb050a6bdb7c31537aacfd6224a2953f822b02bdae5edeac826f9f"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/AndroidManifest.xml",
+      "source_path": "android/HomePulse/app/src/main/AndroidManifest.xml",
+      "sha256": "7675788250df8ee7f5fe2b7c199820df1f05d3710ee28d7b1ffee178aa29b849"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/ChartsView.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/ChartsView.java",
+      "sha256": "0e5679d23c7ece75fda792620cf2d5b7b4dc66541e2a023171b6eb4ff5a44a86"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/HomePulseApp.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/HomePulseApp.java",
+      "sha256": "f848cc32b111971f8df940d169a9f105e75795dafd934135d03f10a5e0cc87aa"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/HomePulseService.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/HomePulseService.java",
+      "sha256": "2346a748b67ddc45c24bd883af586012013e070e5676823e5436bf6a466b6f6c"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/MainActivity.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/MainActivity.java",
+      "sha256": "98b7925eae0cca00bfd22bec99759c2dceb1bcc7e639f6208706d4bc0815e5d1"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/OuraProtocol.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/OuraProtocol.java",
+      "sha256": "4a11e036b35d1fdc565a980797d4374333d4eaef5d89d85a0c4446026f8b5c7b"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/RingBle.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/RingBle.java",
+      "sha256": "518dd82599c423f6b9041eefade67bed7185054a9368897b9b8af13018a658bd"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/Store.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/Store.java",
+      "sha256": "1341740af433e27ab32b3cb50e7eb168465a1410c451d896968c9977bd8746a7"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/WellnessClient.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/WellnessClient.java",
+      "sha256": "b4ca59a85133e79aa912b6decb7b4d4b4aa842a40f4abb355cb60cf276ce2e8e"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/java/com/familos/homepulse/Workout.java",
+      "source_path": "android/HomePulse/app/src/main/java/com/familos/homepulse/Workout.java",
+      "sha256": "dad0465b83e1381b64862f61161e4423db7919bb729a1c3680267fd20df029a9"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/res/drawable/ic_launcher.xml",
+      "source_path": "android/HomePulse/app/src/main/res/drawable/ic_launcher.xml",
+      "sha256": "1c22b055dcfc31a1a642070d1f39de3073c551d4105fc82c282aae74b1a7ee8a"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/res/drawable/ic_pulse.xml",
+      "source_path": "android/HomePulse/app/src/main/res/drawable/ic_pulse.xml",
+      "sha256": "2777cd16624c59827e88587b4b26599506d834bf07b050a9324e9da090bc9717"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/res/values/styles.xml",
+      "source_path": "android/HomePulse/app/src/main/res/values/styles.xml",
+      "sha256": "bdd1a234d19de8fdaa1fae9b9924f8f785df785740c85616fbbccef64dfb327d"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "android/HomePulse/app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "379f3648c12f64f1402dc46ef38fe8490a9e44fc251fbd735a8d56986d52826c"
+    },
+    {
+      "path": "android/HomePulse/app/src/main/res/xml/network_security_config.xml",
+      "source_path": "android/HomePulse/app/src/main/res/xml/network_security_config.xml",
+      "sha256": "145d0c2ba40e896bde57d2533ef242cbba98c3f4be9b173d17af12ae1bb1b5b2"
+    },
+    {
+      "path": "android/HomePulse/build.py",
+      "source_path": "android/HomePulse/build.py",
+      "sha256": "4015ce859d975d44810680c9289e8d58f180736ae54580e3968945897830ba5e"
+    },
+    {
+      "path": "android/HomePulse/tests/OuraProtocolTest.java",
+      "source_path": "android/HomePulse/tests/OuraProtocolTest.java",
+      "sha256": "14bf33c09e6a744bb19eb7fa192dd4dddac914f907bf13e2965c9105a949c22f"
+    },
+    {
+      "path": "android/HomePulse/tests/SelfTestInstrumentation.java",
+      "source_path": "android/HomePulse/tests/SelfTestInstrumentation.java",
+      "sha256": "28fcc426828d14c886b17caee28296ec7ff8271a704c0c920478ee7e0ecf6c75"
+    },
+    {
+      "path": "android/HomePulse/tests/protocol-result.txt",
+      "source_path": "android/HomePulse/tests/protocol-result.txt",
+      "sha256": "8ac5dd01e35e5ede3b2b1242ce25643cc8d9f242d74236d4e8740102bc9bdd77"
+    },
+    {
+      "path": "android/HomePulse/tests/protocol-validation.json",
+      "source_path": "android/HomePulse/tests/protocol-validation.json",
+      "sha256": "491e0bef668913fa55f438fc60d065750639a4826909bc873f57aea72349c107"
+    },
+    {
+      "path": "familos/backend/app/api/wellness.py",
+      "source_path": "backend/app/api/wellness.py",
+      "sha256": "f9cac4d29d7b69e491a711577de6327255f50a2502feab45eb70979661a52e24"
+    },
+    {
+      "path": "familos/backend/app/api/wellness_module.py",
+      "source_path": "backend/app/api/wellness_module.py",
+      "sha256": "e7e1676ed48963234bb599f4995d4efdc7da11c16471215b4d087cc2c7f131d7"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/__init__.py",
+      "source_path": "backend/app/services/homepulse/__init__.py",
+      "sha256": "bb9568e98a0a98907b0da349a2b76a25928b7d2f785097546eb00f02f9d9e576"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/activity.py",
+      "source_path": "backend/app/services/homepulse/activity.py",
+      "sha256": "a4f70d70021c3a824e35a0ffde548050283265daccaa08ffdf7a353f9f9b6031"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/analysis.py",
+      "source_path": "backend/app/services/homepulse/analysis.py",
+      "sha256": "2bf3a9eed26330a55706360cbb888eccfd777830f610513a7fb4431bc1d00d6a"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/breathing.py",
+      "source_path": "backend/app/services/homepulse/breathing.py",
+      "sha256": "aaa58d117d642119f948dcbcfd679d5e4b0449e2452f8adc3b4e5fc360f9e04c"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/cardio.py",
+      "source_path": "backend/app/services/homepulse/cardio.py",
+      "sha256": "90182b23975479c9ab51e24b32651bbfe57c5a7571c0603d9dcee2d0fb0684b6"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/history.py",
+      "source_path": "backend/app/services/homepulse/history.py",
+      "sha256": "89e8c40803e094055b869df9a438e6c4d3049dd91ba3727343de623d9edfd8f9"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/module.py",
+      "source_path": "backend/app/services/homepulse/module.py",
+      "sha256": "3393c5aa41865afec08f305a354028cb96cd21c4cb354bcc5e1a92d8506f22c7"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/motion.py",
+      "source_path": "backend/app/services/homepulse/motion.py",
+      "sha256": "8fe7b1dd89e37d16c47fe6eb60e863e66f2baf372f002fa91055e8c03b06c98d"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/protocol.py",
+      "source_path": "backend/app/services/homepulse/protocol.py",
+      "sha256": "d59c7e784f62665fa44bea2dd7e2128f02e60bcedd9836596b3364859f4af97c"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/provision.py",
+      "source_path": "backend/app/services/homepulse/provision.py",
+      "sha256": "1ecc3f29479bf589ec0b38591479a221ad6a08244b54308d12eb2f623a01c524"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/recorded.py",
+      "source_path": "backend/app/services/homepulse/recorded.py",
+      "sha256": "0a44195bb82a3e9fe5c7d8a2f7d57e14ef55aaaea68dabf3e23907594d829eb1"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/sleep.py",
+      "source_path": "backend/app/services/homepulse/sleep.py",
+      "sha256": "7e84c3671e01d8dbff4a39d0e8f6efd21465e6263a2d30e82a83c8dab2b2334c"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/store.py",
+      "source_path": "backend/app/services/homepulse/store.py",
+      "sha256": "766eaa9212bd5dee1d0621d0b6edef7e533252d765fe0cbf45f5266ac89c249c"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/temperature.py",
+      "source_path": "backend/app/services/homepulse/temperature.py",
+      "sha256": "e878450f3567c4e60267623fda9941f9889ee03b83a3cb486235bcad0b7ffbba"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/vitals.py",
+      "source_path": "backend/app/services/homepulse/vitals.py",
+      "sha256": "052f4aa3a6885ad36775362cbe24828c6d64533100c1b7a2a25bb86f3e3a013c"
+    },
+    {
+      "path": "familos/backend/app/services/homepulse/workout.py",
+      "source_path": "backend/app/services/homepulse/workout.py",
+      "sha256": "db8f81defa2ece5245978eacf9361b753f985e0783bb217deb2fb133cc1ff659"
+    },
+    {
+      "path": "familos/backend/app/tools/wellness_tools.py",
+      "source_path": "backend/app/tools/wellness_tools.py",
+      "sha256": "a81a9c41c67888239c74e9fb850761cf0f3ac3b4a6413cc5fd77eccf3640bd70"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness.py",
+      "source_path": "backend/tests/test_wellness.py",
+      "sha256": "b37effbf11c11c6b5cf8f27461ada338ebd58c09dbe4e8a77a269567b167abdd"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_cardio.py",
+      "source_path": "backend/tests/test_wellness_cardio.py",
+      "sha256": "923a6b6457884f653b7337a7cc78b8ed5a23980e0e3108413de0d9efc068a557"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_module_tools.py",
+      "source_path": "backend/tests/test_wellness_module_tools.py",
+      "sha256": "430d4e2d6405bd1b4ef1d000f991ca868492dfd293e0eb877ccd94461a9d9e1f"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_recorded.py",
+      "source_path": "backend/tests/test_wellness_recorded.py",
+      "sha256": "b53b307dc6c2302220593db43026608333a43f7460c2602ddddac6d27ee2a493"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_sleep.py",
+      "source_path": "backend/tests/test_wellness_sleep.py",
+      "sha256": "7d60521091491e0e056a59399a1f450d6047495d57467066236e7d79758bbc9f"
+    },
+    {
+      "path": "familos/extras/homepulse-core/.dockerignore",
+      "source_path": "extras/homepulse-core/.dockerignore",
+      "sha256": "b7e1b0ec47246b4daaaed1786466576d4dd86bba9aedabcf1c7e12038fb70297"
+    },
+    {
+      "path": "familos/extras/homepulse-core/.gitignore",
+      "source_path": "extras/homepulse-core/.gitignore",
+      "sha256": "056ff94ba4a7255ca4f678a3a6b810805ab85e421f4ff2102130615f585a23fd"
+    },
+    {
+      "path": "familos/extras/homepulse-core/Dockerfile",
+      "source_path": "extras/homepulse-core/Dockerfile",
+      "sha256": "513a3e3106e0f2dfbfa84d15220e23da0c9e771de95e01ce601d005259a42960"
+    },
+    {
+      "path": "familos/extras/homepulse-core/EVIDENCE.json",
+      "source_path": "extras/homepulse-core/EVIDENCE.json",
+      "sha256": "8873e61db57194a0e61f16e738d18844a910d6151ba9d34f53d99c7bd8202351"
+    },
+    {
+      "path": "familos/extras/homepulse-core/README.md",
+      "source_path": "extras/homepulse-core/README.md",
+      "sha256": "21844576ba82e32c5cf7c3fb8d103fa58a72b34aef42cafc34b7b55aa9650382"
+    },
+    {
+      "path": "familos/extras/homepulse-core/bionic_shim.c",
+      "source_path": "extras/homepulse-core/bionic_shim.c",
+      "sha256": "ce3f3a736135aaf0e521943f1b2d1df71d808930ff7181d6d54b5b018500fe09"
+    },
+    {
+      "path": "familos/extras/homepulse-core/compose.private.yml",
+      "source_path": "extras/homepulse-core/compose.private.yml",
+      "sha256": "c13e7b22b17714b133620b1c740e2bda64ab1e769308b7623911cd0f91761686"
+    },
+    {
+      "path": "familos/extras/homepulse-core/prepare_native.py",
+      "source_path": "extras/homepulse-core/prepare_native.py",
+      "sha256": "8561de5f0c6420f3f623d56846514e4e57b742005e3b7d9009ab17811e313739"
+    },
+    {
+      "path": "familos/extras/homepulse-core/sandbox.py",
+      "source_path": "extras/homepulse-core/sandbox.py",
+      "sha256": "1376f28e7757a7eb743e08e0dd90e55d4679cc63d041755ceea52b002890108d"
+    },
+    {
+      "path": "familos/extras/homepulse-core/service.py",
+      "source_path": "extras/homepulse-core/service.py",
+      "sha256": "104727225b6f7931eb3a86be1902b1a0ae48a8fcfc41a13c0ad5714a9fe03ae6"
+    },
+    {
+      "path": "familos/extras/homepulse-core/synthetic_fixture.json",
+      "source_path": "extras/homepulse-core/synthetic_fixture.json",
+      "sha256": "df17304071cab238340bc36ab6c0adf481a0e7848edd3b51b42b9aa34d46286f"
+    },
+    {
+      "path": "familos/extras/homepulse-core/test_orbita_install.py",
+      "source_path": "extras/homepulse-core/test_orbita_install.py",
+      "sha256": "4db02f2d05c08f360cbb6f228b7d82cab7cbbc697d213214a50d8251297f2879"
+    },
+    {
+      "path": "familos/extras/homepulse-core/test_service.py",
+      "source_path": "extras/homepulse-core/test_service.py",
+      "sha256": "82ef381594a7bd10e4384b7e614a0dabcd23cb2402bc5a41e2afacd0adb18e90"
+    },
+    {
+      "path": "familos/extras/homepulse-core/worker.py",
+      "source_path": "extras/homepulse-core/worker.py",
+      "sha256": "19ec1d612bee65d82066a5d143078cbe4a3491769eeb5b4658fa6b58d38fbcaa"
+    },
+    {
+      "path": "familos/extras/updater/orbita_support/wellness.py",
+      "source_path": "extras/updater/orbita_support/wellness.py",
+      "sha256": "4e2ffcaf81e86705d7e61421244db31cbd2bbbc270da44878f217276d8932128"
+    },
+    {
+      "path": "familos/frontend/src/lib/wellness.ts",
+      "source_path": "frontend/src/lib/wellness.ts",
+      "sha256": "4ad1a1ba862018ac146155f8c3e8c47c6d5e5d1614fd69bc794c259d09e740e1"
+    },
+    {
+      "path": "familos/frontend/src/pages/SleepPanel.tsx",
+      "source_path": "frontend/src/pages/SleepPanel.tsx",
+      "sha256": "6e3faf1e94a7bb6e985cc814ed884684f49498c6514880210aaad22539654fd1"
+    },
+    {
+      "path": "familos/frontend/src/pages/Wellness.css",
+      "source_path": "frontend/src/pages/Wellness.css",
+      "sha256": "88d76e2b5834b68df7b36794162a5114eedeb29dbd663d8a8b53bc74f102feff"
+    },
+    {
+      "path": "familos/frontend/src/pages/Wellness.tsx",
+      "source_path": "frontend/src/pages/Wellness.tsx",
+      "sha256": "50d7f1a4083b8d4e2016563aaff9452a65643edd365f1bd801281e227229328d"
+    },
+    {
+      "path": "familos/frontend/src/pages/WellnessCharts.tsx",
+      "source_path": "frontend/src/pages/WellnessCharts.tsx",
+      "sha256": "c1b3c68efccd8a068d58d4f7e57138301b73167b18a9ef014f98b5971818d6a8"
+    },
+    {
+      "path": "familos/frontend/src/pages/WellnessModule.tsx",
+      "source_path": "frontend/src/pages/WellnessModule.tsx",
+      "sha256": "4eb1d9a437ec422ef93d3bbd59044d46deabdf131dc77063d16822344e0189a5"
+    },
+    {
+      "path": "familos/frontend/tests/wellness-api.test.ts",
+      "source_path": "frontend/tests/wellness-api.test.ts",
+      "sha256": "9ee1a3953893b0428b0480c143c2ad357aabe33cc9dc3642b8c93fb466a4c85f"
+    },
+    {
+      "path": "familos/frontend/tests/wellness-model.test.ts",
+      "source_path": "frontend/tests/wellness-model.test.ts",
+      "sha256": "eea87bbd6133b38233e17da8aaaf0182e6c75ca99f6ffa9978415c5e13d84d18"
+    },
+    {
+      "path": "familos/frontend/tests/wellness-page.test.tsx",
+      "source_path": "frontend/tests/wellness-page.test.tsx",
+      "sha256": "31a70b5460abe1535d7a51527fe87c84acaf3f2486df7d4297b6404a3b8c1198"
+    },
+    {
+      "path": "familos/frontend/tests/wellness-performance.test.tsx",
+      "source_path": "frontend/tests/wellness-performance.test.tsx",
+      "sha256": "389c6702d02fc95d5717b7a671ff1fa626c8b57a24a17301a89aa5ae2a4baf61"
+    },
+    {
+      "path": "familos/frontend/tests/wellness-sleep.test.tsx",
+      "source_path": "frontend/tests/wellness-sleep.test.tsx",
+      "sha256": "36caa3d257f96a6f16e9ab69655d714692209b1afa2495f124bac0a363a61f63"
+    },
+    {
+      "path": "ios/HomePulse/.gitignore",
+      "source_path": "ios/HomePulse/.gitignore",
+      "sha256": "95d0f9964ff5aae2ac9bd85225882d4b11c4293162566c2b822834baa2f1d8bf"
+    },
+    {
+      "path": "ios/HomePulse/ACTIVITY_PROTOCOL.md",
+      "source_path": "ios/HomePulse/ACTIVITY_PROTOCOL.md",
+      "sha256": "99686945579e8c1fe373e9f6f88ee6b2428c29f04b1ded714167c175427723b0"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse.xcodeproj/project.pbxproj",
+      "source_path": "ios/HomePulse/HomePulse.xcodeproj/project.pbxproj",
+      "sha256": "373994af6bdb7888b68e821fd5f1c2acbfc343b85308157ad05b2b7f3653262b"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse.xcodeproj/xcshareddata/xcschemes/HomePulse.xcscheme",
+      "source_path": "ios/HomePulse/HomePulse.xcodeproj/xcshareddata/xcschemes/HomePulse.xcscheme",
+      "sha256": "e51441023030769d0bdf5e670f106a834ad8180bb9efc30c9f89c8a9ffb64cf0"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/AppModel.swift",
+      "source_path": "ios/HomePulse/HomePulse/AppModel.swift",
+      "sha256": "a33e836e617f17253c05cf5e7fd5eac65a812796ef7a0819195d825271210522"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "source_path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "9f4c45fff27788b863e6d7ebbd7472d3159cdc21177a9eb4881b9a5b4ce20b8c"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "source_path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "9239900ca4c37dc860feb154216409f05d906e26f2d79550e1e8e8b8db6324c7"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Assets.xcassets/Contents.json",
+      "source_path": "ios/HomePulse/HomePulse/Assets.xcassets/Contents.json",
+      "sha256": "e8e8ef4b27126d62305af321d12a6e64b866ca0b160f0f83efae90111f0ee576"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Credentials.swift",
+      "source_path": "ios/HomePulse/HomePulse/Credentials.swift",
+      "sha256": "c4e8fa2b401f363649f19630880225b665712cee3210bd0dac844418f5c27eb7"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/EventStore.swift",
+      "source_path": "ios/HomePulse/HomePulse/EventStore.swift",
+      "sha256": "9cdf99dcc763ed02ee775f22ebbb376e2ba72b3becf726a1c030f947bbe8e3d1"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/GymDetection.swift",
+      "source_path": "ios/HomePulse/HomePulse/GymDetection.swift",
+      "sha256": "54c389a3c2e003fe693ac2356f11dbe259109139597f38f26c59d1436ffa08ad"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/HomePulse-Bridging-Header.h",
+      "source_path": "ios/HomePulse/HomePulse/HomePulse-Bridging-Header.h",
+      "sha256": "5a83f1a13d215e89bafc1c1f3858797f4bea1d3fafccaf7b76b20ec37e98ec39"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/HomePulseApp.swift",
+      "source_path": "ios/HomePulse/HomePulse/HomePulseApp.swift",
+      "sha256": "76e4a0b398f87c054552d40f0e6c6a9991f5efb7f8efca945d5cfb161ac187aa"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Info.plist",
+      "source_path": "ios/HomePulse/HomePulse/Info.plist",
+      "sha256": "a61f3542a051a2779318509ba4e43d451afbe3d77f7983d72e0555fc2b63eff4"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Models.swift",
+      "source_path": "ios/HomePulse/HomePulse/Models.swift",
+      "sha256": "f18c148a904ee89149656926d6c418c5880fdcfcccc2f5e141fb40b61f3f180f"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/OuraProtocol.swift",
+      "source_path": "ios/HomePulse/HomePulse/OuraProtocol.swift",
+      "sha256": "15723f30d9804c21b278e8218e64f5c9480b1fccd952bd6061eef373ad68898a"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/QRScanner.swift",
+      "source_path": "ios/HomePulse/HomePulse/QRScanner.swift",
+      "sha256": "d8d00bd5860ecbc7128b6e0c659cf34d1e54ea1c97f7a90b47eb67865ab6490e"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
+      "source_path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
+      "sha256": "2069ac4af77c5d810c2c985a59098fc40684b8d1d0ca5a9efd6293d6f4a76fbf"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/RecordedModel.h",
+      "source_path": "ios/HomePulse/HomePulse/RecordedModel.h",
+      "sha256": "c2ba57844b8aca51426bb45d579c1eae36290125cf45841d62738cd2dc4193b3"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/RecordedModel.mm",
+      "source_path": "ios/HomePulse/HomePulse/RecordedModel.mm",
+      "sha256": "c78a6b46b2c1ee357c3f5a4c9435aab8fd9b79118c11872395517cf51e7011e4"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/RingBridge.swift",
+      "source_path": "ios/HomePulse/HomePulse/RingBridge.swift",
+      "sha256": "0c614897fefae2015407b5d32f24635c09531556b0519425d305378786e80503"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/SessionReconciliation.swift",
+      "source_path": "ios/HomePulse/HomePulse/SessionReconciliation.swift",
+      "sha256": "777ed8591f49f89043d7011fb096c281a739efeb0c9305153061fb6b1a447b7c"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/Views.swift",
+      "source_path": "ios/HomePulse/HomePulse/Views.swift",
+      "sha256": "5dd9cd4f5f5b8e218e007bc06c4e354a5e6af9e0a4e4f30d6e6e36d19989bad8"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
+      "source_path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
+      "sha256": "0d2ae51414cc5be74d20f43c39463155a2f1987dcad91fa26b77a8a35ee26880"
+    },
+    {
+      "path": "ios/HomePulse/HomePulse/WorkoutEngine.swift",
+      "source_path": "ios/HomePulse/HomePulse/WorkoutEngine.swift",
+      "sha256": "1434999cc3a167a6be974bc5dc9466fc83f28a5c290750e6a428eca3ff60bcc5"
+    },
+    {
+      "path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
+      "source_path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
+      "sha256": "f90da903c0a8b70f548a8b68878576c58251a1ed412ed8399e2da52c450691a3"
+    },
+    {
+      "path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
+      "source_path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
+      "sha256": "63fa52808f166684223806cc9c261bba0ed4cf56bb51b85022cee0c4f98f3d16"
+    },
+    {
+      "path": "ios/HomePulse/QA.md",
+      "source_path": "ios/HomePulse/QA.md",
+      "sha256": "0b4f8f1ef19de3b4e2e286037960289f405082444858fa193074297434b8be1e"
+    },
+    {
+      "path": "ios/HomePulse/README.md",
+      "source_path": "ios/HomePulse/README.md",
+      "sha256": "3d694a6f8a47c98cbeff2418267230f6582ab6dc49fe861c5043ae70f6c3405c"
+    },
+    {
+      "path": "ios/HomePulse/copy_private_model.py",
+      "source_path": "ios/HomePulse/copy_private_model.py",
+      "sha256": "105ee4dbc263abac413aa5b350b7142253aba2b4e84df95ee2433af0ed9a0419"
+    },
+    {
+      "path": "ios/HomePulse/generate_project.py",
+      "source_path": "ios/HomePulse/generate_project.py",
+      "sha256": "a8e5ed187dab8cce63dd6b2597f94ed7951fdf381350cb5f593c3468119ffb9f"
+    },
+    {
+      "path": "ios/HomePulse/test-results.json",
+      "source_path": "ios/HomePulse/test-results.json",
+      "sha256": "07a6fbebe9fa739a414a395b4ac0da6a239e0f9f774efda44e3ecb4aefdc26b7"
+    }
+  ]
+}
