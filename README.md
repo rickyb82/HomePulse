@@ -30,6 +30,12 @@ Ogni risultato conserva versione del modello, qualità e stato provvisorio/final
 
 WHR U2.5.1 è sperimentale sul firmware Gen3 attuale. L’esecuzione è verificata anche su iPhone fisico; qualità e comportamento durante allenamenti reali richiedono verifica separata. L’uscita interpolata a un secondo non equivale a nuove misure indipendenti a quella frequenza. SpO₂, temperatura, respiro e sonno seguono i propri record e percorsi di elaborazione.
 
+## Sonno Gen3 e ripristino
+
+Lo storico viene elaborato in blocchi limitati con18ore di sovrapposizione e checkpoint persistenti. Il formato firmware Gen3 0x76 recupera il periodo a letto usando il mapping nativo dello stesso avvio; fasi e sonno totale rimangono nulli finché la pipeline SleepNet non è integrata. Non vengono stimati da soglie di movimento.
+
+L’avvio cardio prepara il nuovo contesto prima dell’ACK senza sostituire la cattura corrente; un allineamento lungo riprende automaticamente. Il riavvio del segmento non spegne la preferenza di monitoraggio continuo.
+
 ## Dati privati
 
 Le fixture pubbliche sono sintetiche. Non sono inclusi immagini della configurazione personale, archivi sanitari, credenziali, token, associazioni o dati di un anello specifico. I componenti esterni mantengono autori e licenze originali; il runtime PyTorch viene fornito separatamente con la propria licenza nella build fisica.

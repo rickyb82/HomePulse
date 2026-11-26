@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "5484a74dacd221873ea9eb5d4b7d58ffa774a879",
+  "revision": "e49a685826456226d7fe657d3400bc83fdec9846",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -121,7 +121,7 @@
     {
       "path": "familos/backend/app/api/wellness.py",
       "source_path": "backend/app/api/wellness.py",
-      "sha256": "15cc02fc4941e82c33e8a71489e22543ab5c06ec828a73cbed13866528d77b25"
+      "sha256": "13c8c64480fc88ca0e17e5b259d747639d8d5508d6ef4c8ac2ebab3ebc3946be"
     },
     {
       "path": "familos/backend/app/api/wellness_module.py",
@@ -189,6 +189,11 @@
       "sha256": "8fe7b1dd89e37d16c47fe6eb60e863e66f2baf372f002fa91055e8c03b06c98d"
     },
     {
+      "path": "familos/backend/app/services/homepulse/processing.py",
+      "source_path": "backend/app/services/homepulse/processing.py",
+      "sha256": "b2eed3710f3692f5b2c16e9107fb4690505ce69a34f94b7c70fad269e89c9fcb"
+    },
+    {
       "path": "familos/backend/app/services/homepulse/protocol.py",
       "source_path": "backend/app/services/homepulse/protocol.py",
       "sha256": "d59c7e784f62665fa44bea2dd7e2128f02e60bcedd9836596b3364859f4af97c"
@@ -211,7 +216,7 @@
     {
       "path": "familos/backend/app/services/homepulse/sleep.py",
       "source_path": "backend/app/services/homepulse/sleep.py",
-      "sha256": "77485ec260ca18be5156f4a8bd321a7f7fe74bbf98c21202681d7f4788e24694"
+      "sha256": "bc3b6e4e815311e37c11f33ceeb9ad41f3aad14065177b007b21a9c059263c1c"
     },
     {
       "path": "familos/backend/app/services/homepulse/spo2.py",
@@ -221,7 +226,7 @@
     {
       "path": "familos/backend/app/services/homepulse/store.py",
       "source_path": "backend/app/services/homepulse/store.py",
-      "sha256": "6b174c6973453bf6167fc11800112300de26529defa7270ee6996c683a9bb4ba"
+      "sha256": "b563db0160350dc801ba1df044872c7c4b4a92cc02260f05a3444373a63b9487"
     },
     {
       "path": "familos/backend/app/services/homepulse/temperature.py",
@@ -269,6 +274,11 @@
       "sha256": "ec62d729392dbf9eab0f37115d5f463d89d05af089a037c23e1d3000e36f4606"
     },
     {
+      "path": "familos/backend/tests/test_wellness_processing.py",
+      "source_path": "backend/tests/test_wellness_processing.py",
+      "sha256": "dbe376ec05be180afca8cd4daece7ce284955005b2020872eb094e886584f521"
+    },
+    {
       "path": "familos/backend/tests/test_wellness_recorded.py",
       "source_path": "backend/tests/test_wellness_recorded.py",
       "sha256": "b53b307dc6c2302220593db43026608333a43f7460c2602ddddac6d27ee2a493"
@@ -281,7 +291,7 @@
     {
       "path": "familos/backend/tests/test_wellness_sleep.py",
       "source_path": "backend/tests/test_wellness_sleep.py",
-      "sha256": "3805cc06f01f4eff4c13a1dbadf90bb62b39aa23b148bcd7d717c8c448c14cb3"
+      "sha256": "760b060126793c5dd218a70990a5bf6794e94e6bc6291788cbdab262d3b2d87f"
     },
     {
       "path": "familos/backend/tests/test_wellness_spo2_catalog.py",
@@ -301,7 +311,7 @@
     {
       "path": "familos/extras/homepulse-core/Dockerfile",
       "source_path": "extras/homepulse-core/Dockerfile",
-      "sha256": "513a3e3106e0f2dfbfa84d15220e23da0c9e771de95e01ce601d005259a42960"
+      "sha256": "596f62584ff57ba131e671cd809fc1e3c0233576789858814c8e989a53b0b9ab"
     },
     {
       "path": "familos/extras/homepulse-core/EVIDENCE.json",
@@ -311,7 +321,7 @@
     {
       "path": "familos/extras/homepulse-core/README.md",
       "source_path": "extras/homepulse-core/README.md",
-      "sha256": "21844576ba82e32c5cf7c3fb8d103fa58a72b34aef42cafc34b7b55aa9650382"
+      "sha256": "554769187295df365f952d0e4fc9358f8d36248994a45a3b20916527386f26c8"
     },
     {
       "path": "familos/extras/homepulse-core/bionic_shim.c",
@@ -322,6 +332,11 @@
       "path": "familos/extras/homepulse-core/compose.private.yml",
       "source_path": "extras/homepulse-core/compose.private.yml",
       "sha256": "c13e7b22b17714b133620b1c740e2bda64ab1e769308b7623911cd0f91761686"
+    },
+    {
+      "path": "familos/extras/homepulse-core/gen3_sleep.py",
+      "source_path": "extras/homepulse-core/gen3_sleep.py",
+      "sha256": "71c73d7848bc447dedbecf01bb7101d3a508ce0b3e831e98eb7c257221249066"
     },
     {
       "path": "familos/extras/homepulse-core/prepare_native.py",
@@ -351,7 +366,7 @@
     {
       "path": "familos/extras/homepulse-core/test_probe.py",
       "source_path": "extras/homepulse-core/test_probe.py",
-      "sha256": "5d74163d62c5cec1bf2ac9c5d7fdafbafb1a36df97f41a9682ec67b0748b3a25"
+      "sha256": "f8c20d3fd4f8c63729aba80712439e18bf9f8c44f4c171f5008605d0e136a670"
     },
     {
       "path": "familos/extras/homepulse-core/test_service.py",
@@ -361,22 +376,22 @@
     {
       "path": "familos/extras/homepulse-core/worker.py",
       "source_path": "extras/homepulse-core/worker.py",
-      "sha256": "19ec1d612bee65d82066a5d143078cbe4a3491769eeb5b4658fa6b58d38fbcaa"
+      "sha256": "d9ae3ea3dd3d6fa460c61a16dd9d9263b1b7253c32ee73a9dae19daee3d5b17a"
     },
     {
       "path": "familos/extras/updater/orbita_support/wellness.py",
       "source_path": "extras/updater/orbita_support/wellness.py",
-      "sha256": "95f8825315abb3fbffcb91d2d73cb39e57d0c72b255e669a498105aced8c2078"
+      "sha256": "7128a8358e8a14a46a0b8486eb80f99dadd008c31dcb1f174479ac7dc8a979b9"
     },
     {
       "path": "familos/frontend/src/lib/wellness.ts",
       "source_path": "frontend/src/lib/wellness.ts",
-      "sha256": "6ddeb1f20cffd87b2264e1a559017456d521c49c78ff3af0e95b4373dd1c25e0"
+      "sha256": "2e402716c7398a405ef3fa0ee38aa3726d5615745ced9e04de360012b9f99afb"
     },
     {
       "path": "familos/frontend/src/pages/SleepPanel.tsx",
       "source_path": "frontend/src/pages/SleepPanel.tsx",
-      "sha256": "c00dd81a05e9b6e8068a912366ca59956a2be1424b1dfa080f26c391220ad300"
+      "sha256": "3999f100cf0e430f25b0e3c22c4d194ff1f95292a1a85c4e1ddd1796eb97d9c6"
     },
     {
       "path": "familos/frontend/src/pages/Wellness.css",
@@ -421,7 +436,7 @@
     {
       "path": "familos/frontend/tests/wellness-sleep.test.tsx",
       "source_path": "frontend/tests/wellness-sleep.test.tsx",
-      "sha256": "83fd2a564c79516b35cfdd6eabb26b96c064117f4743270fe6f6b1ff73528fca"
+      "sha256": "b3bf44ec6f2edf00cffe6b50342fb7d3ba9e69aff2528a42e4ad8f4df80f8e38"
     },
     {
       "path": "ios/HomePulse/.gitignore",
@@ -446,7 +461,7 @@
     {
       "path": "ios/HomePulse/HomePulse/AppModel.swift",
       "source_path": "ios/HomePulse/HomePulse/AppModel.swift",
-      "sha256": "68e78d636b77266471cf8ff1cb59ebedd73e1e147fd89fc554293f0408694da8"
+      "sha256": "ecfdaf9b52e4d031604f1123e51b6f8184e6064c8a52e16bc3a0c424ca0336f6"
     },
     {
       "path": "ios/HomePulse/HomePulse/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
@@ -471,7 +486,7 @@
     {
       "path": "ios/HomePulse/HomePulse/EventStore.swift",
       "source_path": "ios/HomePulse/HomePulse/EventStore.swift",
-      "sha256": "25702dcabab9a47db3a549ccca59cb7c01664d6b8bf28c372ad0d93f06345ca4"
+      "sha256": "8404b1c762a3efec15ee133feffc532e3b44d6dca47835fd42d66614084db626"
     },
     {
       "path": "ios/HomePulse/HomePulse/GymDetection.swift",
@@ -491,12 +506,12 @@
     {
       "path": "ios/HomePulse/HomePulse/Info.plist",
       "source_path": "ios/HomePulse/HomePulse/Info.plist",
-      "sha256": "95d5835d7002bc48b5b5151a0a2b3057d48aac4a3a7b8a563af068bc63843dd6"
+      "sha256": "2c7231971863e29a945566bd48e4ce32973cb4e7a2a2aa61d9c5c92ceabd3560"
     },
     {
       "path": "ios/HomePulse/HomePulse/Models.swift",
       "source_path": "ios/HomePulse/HomePulse/Models.swift",
-      "sha256": "a38e104b174bc051461bbac41d2a34f4dfdd6aa120e9a0fc589c19819b465907"
+      "sha256": "531e3706e54e5f4056ba96f5d5d611d91e77fafa860de4889527ab2afd5cb9c3"
     },
     {
       "path": "ios/HomePulse/HomePulse/OuraProtocol.swift",
@@ -511,7 +526,7 @@
     {
       "path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
       "source_path": "ios/HomePulse/HomePulse/RecordedCardio.swift",
-      "sha256": "38554fa652dab93cd9cf47e7e953512480d8443fbdb888cdf1e09dbe1202d9e2"
+      "sha256": "1774bc32dac91a2d42b5a6a41c37e4d6e76b094eb9479fa91c46c136db24a94e"
     },
     {
       "path": "ios/HomePulse/HomePulse/RecordedModel.h",
@@ -526,7 +541,7 @@
     {
       "path": "ios/HomePulse/HomePulse/RingBridge.swift",
       "source_path": "ios/HomePulse/HomePulse/RingBridge.swift",
-      "sha256": "66d9334dce2ccb58dccc412ca630a0a9508fb82b2fbca7fb6291176c5e401799"
+      "sha256": "774b9bafb9e43d184530a6ddc1629b57e17024da6fadb1b8c60cda627a1c47a4"
     },
     {
       "path": "ios/HomePulse/HomePulse/SessionReconciliation.swift",
@@ -536,7 +551,7 @@
     {
       "path": "ios/HomePulse/HomePulse/Views.swift",
       "source_path": "ios/HomePulse/HomePulse/Views.swift",
-      "sha256": "14cefd725631f022e99401437e3093f29e53adabe0eceff6b7fd93235f6fe49b"
+      "sha256": "a8b64223bc287fee60a117b987928af16a6121b884de273d2b45ce4d9c41cbc0"
     },
     {
       "path": "ios/HomePulse/HomePulse/WellnessAPI.swift",
@@ -551,7 +566,7 @@
     {
       "path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
       "source_path": "ios/HomePulse/HomePulseTests/HomePulseTests.swift",
-      "sha256": "98f625dfbad3359ce26e8f7b03394937b4fbebe08f2ec0046591534612a4cb0d"
+      "sha256": "a2c8454fb058198bae178a1787b0648bff515a84450e03c9338466ba4013bb46"
     },
     {
       "path": "ios/HomePulse/HomePulseUITests/HomePulseUITests.swift",
@@ -566,7 +581,7 @@
     {
       "path": "ios/HomePulse/README.md",
       "source_path": "ios/HomePulse/README.md",
-      "sha256": "4230bc148ba2860639f5421518ffcc862c96ddc573215533d08581882abbb1c9"
+      "sha256": "30c2b9967e74481a90ba52a08738664325320f00ae11577a8ee373a832ab1fcd"
     },
     {
       "path": "ios/HomePulse/copy_private_model.py",
