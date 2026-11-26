@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "9cbe13d5abc2dca6abae845b33d417ead5479a33",
+  "revision": "5b2b5e4b0b335718de8bf32818e4ee7e408b1843",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -406,17 +406,17 @@
     {
       "path": "familos/frontend/src/pages/Wellness.css",
       "source_path": "frontend/src/pages/Wellness.css",
-      "sha256": "5ab1807cd9d9cf916b6122750272fb88400813d887016da5c8112a40cfe6be49"
+      "sha256": "72a81f581d2db2f71f23bee1d11c229c285ed322d69448afbb35b9bd7e0db0fa"
     },
     {
       "path": "familos/frontend/src/pages/Wellness.tsx",
       "source_path": "frontend/src/pages/Wellness.tsx",
-      "sha256": "ade638f2445be6ef48374eda238c09010ff04b72a9159943eb2cc9c154807aeb"
+      "sha256": "b8392be2ec7db773b20fcef5e3383dab8ca4c964a3f95d627bb93c3733f42b82"
     },
     {
       "path": "familos/frontend/src/pages/WellnessCharts.tsx",
       "source_path": "frontend/src/pages/WellnessCharts.tsx",
-      "sha256": "8d018cfb3b661147734087a0e3b6bc564ab79efc2c236207a158601b53b3423a"
+      "sha256": "c40798292de67a11afffc12bdea881b30d618db750cf6a8495d7942ab8e9be4c"
     },
     {
       "path": "familos/frontend/src/pages/WellnessModule.tsx",
@@ -441,7 +441,7 @@
     {
       "path": "familos/frontend/tests/wellness-performance.test.tsx",
       "source_path": "frontend/tests/wellness-performance.test.tsx",
-      "sha256": "ffba27b9b70c057db5d41d1fe5443bda2ff023d74798f5c35372156f1110b404"
+      "sha256": "25d3022c51b6ddb8edf81b794e283add3dffdba6bbb634a51a0b3146a6f081ce"
     },
     {
       "path": "familos/frontend/tests/wellness-sleep.test.tsx",
