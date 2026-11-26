@@ -36,6 +36,8 @@ Lo storico viene elaborato in blocchi limitati con18ore di sovrapposizione e che
 
 L’avvio cardio prepara il nuovo contesto prima dell’ACK senza sostituire la cattura corrente; un allineamento lungo riprende automaticamente. Il riavvio del segmento non spegne la preferenza di monitoraggio continuo.
 
+I record Gen3 0x6a alimentano la serie respiratoria storica e il riepilogo del periodo Sonno (media dei campioni disponibili, estremi e conteggio). Il mapping UTC resta quello originale del motore. I grafici FamilOS mostrano scale numeriche, unità, date per periodi lunghi e dettagli dei punti. Le serie complete restano disponibili alle analisi.
+
 ## Dati privati
 
 Le fixture pubbliche sono sintetiche. Non sono inclusi immagini della configurazione personale, archivi sanitari, credenziali, token, associazioni o dati di un anello specifico. I componenti esterni mantengono autori e licenze originali; il runtime PyTorch viene fornito separatamente con la propria licenza nella build fisica.
