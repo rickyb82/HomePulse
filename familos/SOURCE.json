@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/rickyb82/FamilOS",
   "branch": "codex/allenamento",
-  "revision": "5a5138b0662c4ca8280dd9fd7aebed6363d4c8ba",
+  "revision": "9cbe13d5abc2dca6abae845b33d417ead5479a33",
   "files": [
     {
       "path": "android/HomePulse/.gitignore",
@@ -131,17 +131,17 @@
     {
       "path": "familos/backend/app/policy/permissions.py",
       "source_path": "backend/app/policy/permissions.py",
-      "sha256": "a7b951224c35e0a511ed36ed8c947ccaf37d334954af19590551f9e588a894fc"
+      "sha256": "e0beae39dceff864af594afa07fc297219c39cfeac5770b016bfb09c690c8093"
     },
     {
       "path": "familos/backend/app/services/apps.py",
       "source_path": "backend/app/services/apps.py",
-      "sha256": "e52904ab0e59a46782fab0a25e4570b70e50b1028cea226cd882a245eb11ba26"
+      "sha256": "539a5ad86b2a7aded3afa3802a27954c6dee06e6cc90a7a870d9a764b6c1a62e"
     },
     {
       "path": "familos/backend/app/services/chat_service.py",
       "source_path": "backend/app/services/chat_service.py",
-      "sha256": "7d39fdfd6998e28797d7ac731904563804c259e9959baa38675c922926915bbd"
+      "sha256": "8d22e2bda32fe2480868dcf7149a6f7dacfd1ed3e7ec3cf06cd9b00eca87e3d2"
     },
     {
       "path": "familos/backend/app/services/homepulse/__init__.py",
@@ -246,7 +246,7 @@
     {
       "path": "familos/backend/app/tools/wellness_tools.py",
       "source_path": "backend/app/tools/wellness_tools.py",
-      "sha256": "47febc71bd93269c48d85558c3a5f6425cd5b55aa7cff1b05888fdf4b319552d"
+      "sha256": "33884c35195e9e01f37ff2692cff220cc29cfa750bcf37015f152a0750c6d939"
     },
     {
       "path": "familos/backend/tests/test_wellness.py",
@@ -297,6 +297,11 @@
       "path": "familos/backend/tests/test_wellness_sleep.py",
       "source_path": "backend/tests/test_wellness_sleep.py",
       "sha256": "8625ff951d2705f4dd2f18798861994b564e2d1b07f7b7c67d6197295c6f295d"
+    },
+    {
+      "path": "familos/backend/tests/test_wellness_sleep_tools.py",
+      "source_path": "backend/tests/test_wellness_sleep_tools.py",
+      "sha256": "0df33ef8e1614699d78f4736094035790c4d155ebcd52d83d8d8f7ae4b30d061"
     },
     {
       "path": "familos/backend/tests/test_wellness_spo2_catalog.py",

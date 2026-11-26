@@ -38,6 +38,8 @@ L’avvio cardio prepara il nuovo contesto prima dell’ACK senza sostituire la 
 
 I record Gen3 0x6a alimentano la serie respiratoria storica e il riepilogo del periodo Sonno (media dei campioni disponibili, estremi e conteggio). Il mapping UTC resta quello originale del motore. I grafici FamilOS mostrano scale numeriche, unità, date per periodi lunghi e dettagli dei punti. Le serie complete restano disponibili alle analisi.
 
+Emily consulta il sonno con `allenamento_sonno`: orari, durate, fasi disponibili, SpO₂ e respiro del proprio periodo. La data indica la fine del periodo nel fuso Europe/Rome. Il tool è riservato al proprietario in chat non condivise; gli strumenti esplicitamente spenti e i permessi restano rispettati.
+
 ## Dati privati
 
 Le fixture pubbliche sono sintetiche. Non sono inclusi immagini della configurazione personale, archivi sanitari, credenziali, token, associazioni o dati di un anello specifico. I componenti esterni mantengono autori e licenze originali; il runtime PyTorch viene fornito separatamente con la propria licenza nella build fisica.
