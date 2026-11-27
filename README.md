@@ -32,7 +32,9 @@ WHR U2.5.1 è sperimentale sul firmware Gen3 attuale. L’esecuzione è verifica
 
 ## Sonno Gen3 e ripristino
 
-Lo storico viene elaborato in blocchi limitati con18ore di sovrapposizione e checkpoint persistenti. Il formato firmware Gen3 0x76 recupera il periodo a letto usando il mapping nativo dello stesso avvio; fasi e sonno totale rimangono nulli finché la pipeline SleepNet non è integrata. Non vengono stimati da soglie di movimento.
+Lo storico viene elaborato in blocchi limitati con18ore di sovrapposizione e checkpoint persistenti. Home Pulse richiede automaticamente l’analisi firmware non forzata prima dello scaricamento e continua a controllare il progresso anche quando i byte disponibili sono esauriti. I risultati nativi disponibili alimentano fasi e totali; il solo record0x76 rappresenta invece una finestra a letto e non inventa una classificazione. Il classificatore SleepNet moderno rimane un percorso distinto.
+
+L’app rilegge automaticamente i risultati dal server quando è visibile. La rete non blocca il timer Bluetooth/cardio e anche le notifiche storiche consentono l’upload nella finestra background. Una finestra firmware vuota corrispondente a un’analisi completa viene riconciliata confrontando entrambi gli estremi, conservando una sola voce con l’analisi. Notti distinte e record grezzi rimangono separati.
 
 L’avvio cardio prepara il nuovo contesto prima dell’ACK senza sostituire la cattura corrente; un allineamento lungo riprende automaticamente. Il riavvio del segmento non spegne la preferenza di monitoraggio continuo.
 
